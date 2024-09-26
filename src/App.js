@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './ReactProg/FirstProg';
+import Firstprog from './ReactProg/FirstProg';
+import Greet from './ReactProg/Greet';
+import SecondProg from './ReactProg/SecondProg';
+import Welcome from './ReactProg/Welcome';
+import Event from './ReactProg/Event';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Firstprog/>
+     <SecondProg/>
+     <Greet   name="varun" designation="developer"/>
+     <Greet   name="arun" designation="tester"/>
+     <Welcome name="b96 " branch="AIML"/>
+     <Event/>
     </div>
   );
 }
