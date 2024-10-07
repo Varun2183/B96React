@@ -7,7 +7,7 @@ import './App.css';
 // import SecondProg from './ReactProg/SecondProg';
 // import Welcome from './ReactProg/Welcome';
 // import Event from './ReactProg/Event';
-import StateFunction from './ReactProg/Statefunction';
+import Httpreq from './ReactProg/Httpreq';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
      <Welcome name="b96 " branch="AIML"/>
      <Event/> 
      <Changestate/>*/}
-     <StateFunction/>
+     <Httpreq/>
     </div>
   );
 }
